@@ -1,0 +1,48 @@
+excerpt_link: 阅读全文
+
+menu:
+ 主页: /
+ 分类: /categories/
+ 标签: /tags/
+ 归档: /archives/
+ 网刊: /cloudpoolmag/
+ 关于: /about/
+
+social:
+  email: cloudpool2017@gmail.com
+  sina: http://v.t.sina.com.cn/share/share.php?
+  douban: https://www.douban.com/recommend/?
+  tieba: http://tieba.baidu.com/f/commit/share/openShareApi?
+  qzone: https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?
+  qq: https://connect.qq.com/widget/shareqq/index.html?
+
+
+# highlight
+highlight:
+  tomorrow
+
+# catalog
+catalog: true
+
+# donate
+donate: true
+
+# qrcode
+qrcode: true
+
+# gitment
+#gitment_owner: 
+#gitment_repo: 
+#gitment_oauth_id: 
+#gitment_oauth_secret: 
+
+# uyan
+# if you want to use uyan as your blog comment, plz remove/comment out gitment config
+
+baidu_id: 
+
+# MathJax Support
+mathjax:
+  enable: false
+  per_page: false
+  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML

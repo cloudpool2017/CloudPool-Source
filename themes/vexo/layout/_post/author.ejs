@@ -1,0 +1,10 @@
+<div class="article-author">
+    <% if (typeof(page.articleauthor) == "string" ) { %>
+        <img class="authorlogo" src="/images/<%- page.articleauthor %>.png">
+        <%- config.member[page.articleauthor] %>
+    <% } else if (typeof(page.articleauthor) == "object") { %>
+        <% for  (name in page.articleauthor) { %>
+          <img class="authorlogo" src="/images/<%- page.articleauthor[name] %>.png" alt=""> <%- config.member[page.articleauthor[name]] %>
+        <% } %>
+    <% } %>
+</div>

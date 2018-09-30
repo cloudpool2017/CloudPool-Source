@@ -1,0 +1,38 @@
+<main class="app-body">
+  <% page.posts.each(function(post) { %>
+    <% if (post.sub) { %>
+    <% } else { %>
+    <article class="article-card">
+      <h2 class="article-head">
+        <a href="<%- url_for(post.path) %>" target="_blank"><%- post.title %></a>
+      </h2>
+      <p class="article-date">
+      <%- date(post.date, "LL") %>
+      <% if (typeof(post.articleauthor) == "string" ) { %>
+        By <img class="small-icon" src="/images/<%- post.articleauthor %>.png" alt=""> <%- config.member[post.articleauthor] %>
+      <% } else if (typeof(post.articleauthor) == "object") { %>  By 
+        <% for  (name in post.articleauthor) { %>
+          <img class="small-icon" src="/images/<%- post.articleauthor[name] %>.png" alt=""> <%- config.member[post.articleauthor[name]] %>
+        <% } %>
+      <% } %>
+      </p>
+      <% if (post.tags && post.tags.length) { %>
+        <%- partial('_partial/tag', { tags: post.tags }) %>
+      <% } %>
+      <div class="article-summary">
+        <% if (post.main) { %>
+          <%- post.main %>
+        <% } else { %>
+          <%- truncate((post.content), {length: 220, omission: '...' }) %>
+        <% } %>
+      </div>
+      <a class="more" href="<%- url_for(post.path) %>" target="_blank"><%- theme.excerpt_link %></a>
+    </article>
+    <% } %>
+  <% }) %>
+
+  <% if (page.total > 1){ %>
+    <%- partial('_partial/pager') %>
+  <% } %>
+</main>
+
