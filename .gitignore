@@ -3,4 +3,5 @@ Thumbs.db
 *.log
 public/
 .deploy*/
+db.json
 * - 副本.*
