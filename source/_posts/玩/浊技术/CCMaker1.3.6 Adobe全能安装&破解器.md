@@ -15,6 +15,5 @@ sub: 1
 运行截图：
 
 ![这是截图](1.jpg)
-附赠Pr，Au，Ae离线安装包
 
-百度云：[https://pan.baidu.com/s/1gkNXINF7hwi7WC8yLN88uQ](https://pan.baidu.com/s/1gkNXINF7hwi7WC8yLN88uQ)
+百度云：<https://pan.baidu.com/s/1gkNXINF7hwi7WC8yLN88uQ>
