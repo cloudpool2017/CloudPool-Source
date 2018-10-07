@@ -1,0 +1,16 @@
+image: node:10.11.0
+pages:
+  cache:
+    paths:
+    - node_modules/
+
+  script:
+  - npm install
+  - hexo init
+  - hexo deploy
+  - hexo g
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
