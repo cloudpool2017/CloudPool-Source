@@ -1,6 +1,6 @@
 ---
 title: CCMaker1.3.6 Adobe全能安装&破解器
-articleauthor: m1
+writer: m1
 date: 2017-06-29
 type: play
 tags: 技术

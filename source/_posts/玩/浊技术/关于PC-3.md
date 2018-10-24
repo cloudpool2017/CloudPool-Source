@@ -1,6 +1,6 @@
 ---
-title: 如果你想很好地玩电脑但是又跟我一样没钱3
-articleauthor: m1
+title: 关于PC-3
+writer: m1
 date: 2018-10-06
 tags: 技术
 categories: 浊技术

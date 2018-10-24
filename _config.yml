@@ -29,11 +29,7 @@ permalink_defaults:
 deploy: 
   type: git
   repo: git@git.coding.net:CloudPool/CloudPool.git
-# type: git
-# repo: git@github.com:cloudpool2017/CloudPool.git
   branch: master
-  name: CloudPool
-  email: cloudpool2017@gmail.com
 
 # Directory
 source_dir: source
@@ -102,12 +98,6 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: vexo
-
-admin:
-  name: hexo
-  password: hey
-  secret: hexo hey
-  expire: 60*1
 
 about: 
   banner: /images/about.jpg

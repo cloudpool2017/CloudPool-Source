@@ -1,6 +1,6 @@
 ---
 title: 【半原创】DiskGenius专业版解锁（4.9.6可用）
-articleauthor: m1
+writer: m1
 date: 2018-05-18
 type: play
 tags: 技术

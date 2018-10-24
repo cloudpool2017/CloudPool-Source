@@ -1,6 +1,6 @@
 ---
 title: 【zuosi】自用梯子教程
-articleauthor: m1
+writer: m1
 date: 2018-06-13
 type: play
 tags: 技术

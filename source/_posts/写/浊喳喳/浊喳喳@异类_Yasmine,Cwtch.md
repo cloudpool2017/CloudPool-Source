@@ -1,7 +1,7 @@
 ---
 title: 浊喳喳@异类_Yasmine,Cwtch💕
 date: 2018-06-07
-articleauthor: [m13, m12]
+writer: [m13, m12]
 tags:
     - BB
 categories:

@@ -1,7 +1,7 @@
 ---
-title: 如果你想很好地玩电脑但是又跟我一样没钱2
-articleauthor: m1
-date: 2018-10-06
+title: 软件推荐
+writer: m1
+date: 2018-10-17
 tags: 技术
 categories: 浊技术
 main: 没钱是原罪
@@ -34,7 +34,7 @@ Chrome附加组件推荐：
 
 ## 音乐播放器
 
-自用[Foobar2000](http://blog.sina.com.cn/s/blog_6fcc51420102wv92.html)的美化版[Foobox](https://pan.baidu.com/s/1o8GmTsu),~~据说音质好(听个响)~~，并没有联网功能，但可以联网获取歌词
+自用[Foobar2000](http://blog.sina.com.cn/s/blog_6fcc51420102wv92.html)的美化版[Foobox](https://pan.baidu.com/s/1o8GmTsu),~~据说音质好(听个响)~~
 
 ## 视频播放器
 
@@ -42,9 +42,9 @@ Chrome附加组件推荐：
 
 ## 下载软件
 
->1.也许大家都知道的[PanDownload](http://pandownload.com/)，百度云神器2
->2.[Eagleget](http://www.eagleget.com/cn/)，挺好用的一个下载软件，反正我上了车以后就再没用过某雷
->3.~~[Internet Download Manager](http://www.internetdownloadmanager.com/)，感觉更好用的一个下载软件，但是需要购买。给一个[东西](IDM破解文件20180106.zip)，有什么用自己探索~~
+1. 也许大家都知道的[PanDownload](http://pandownload.com/)，百度云神器2
+2. [Eagleget](http://www.eagleget.com/cn/)，挺好用的一个下载软件，反正我上了车以后就再没用过某雷
+3. ~~[Internet Download Manager](http://www.internetdownloadmanager.com/)，感觉更好用的一个下载软件，但是需要购买。给一个[东西](IDM破解文件20180106.zip)，有什么用自己探索~~
 
 ## 杀毒软件
 
@@ -52,6 +52,8 @@ Chrome附加组件推荐：
 
 ## 实用工具
 
->1.压缩工具[Bandizip](http://www.bandisoft.com/bandizip/)，以前一直用WinRAR来着，直到盗版成为烂大街的东西直到简体中文版交给了国内广告狂魔
->2.实用工具集[Dism++](https://www.chuyu.me/zh-Hans/)，有时候用得我想哭，过于良心
->3.屏幕截图工具[Snipaste](https://zh.snipaste.com/index.html)
+1. 压缩工具[Bandizip](http://www.bandisoft.com/bandizip/)，以前一直用WinRAR来着，直到盗版成为烂大街的东西直到简体中文版交给了国内广告狂魔
+
+2. 实用工具集[Dism++](https://www.chuyu.me/zh-Hans/)，有时候用得我想哭，过于良心
+
+3. 屏幕截图工具[Snipaste](https://zh.snipaste.com/index.html)

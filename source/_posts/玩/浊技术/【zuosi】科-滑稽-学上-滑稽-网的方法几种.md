@@ -1,6 +1,6 @@
 ---
 title: 【zuosi】科[滑稽]学上[滑稽]网的方法几种
-articleauthor: m1
+writer: m1
 date: 2017-08-05
 type: play
 tags: 技术

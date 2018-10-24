@@ -16,9 +16,8 @@
   <p class="discription"><%-config.member["descriptionm" + i] %> </p>
   <br/><br/><br/>
   <% } %>
-
   <!-- 成员名单 END -->
-
+  <!-- 分享按钮 BEGIN -->
   <section class="share-icons">
     <% if (config.weibo_username) { %>
       <a class="icon-weibo" href="http://weibo.com/<%- config.weibo_username %>" target="_blank">
@@ -53,6 +52,7 @@
       </a>
     <% } %>
   </section>
+  <!-- 分享按钮 END -->
 </div>
 
 <script>

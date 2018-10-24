@@ -4,4 +4,5 @@ Thumbs.db
 public/
 .deploy*/
 db.json
+.gitlab-ci.yml
 * - 副本.*
