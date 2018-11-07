@@ -14,6 +14,9 @@ sub: 1
 
 运行截图：
 
-![这是截图](1.jpg)
+{% asset_img 01.png %}
+{% asset_img 02.png %}
+{% asset_img 03.png %}
+{% asset_img 04.png %}
 
 百度云：<https://pan.baidu.com/s/1gkNXINF7hwi7WC8yLN88uQ>
