@@ -6,7 +6,7 @@ pages:
 
   script:
   - npm install hexo-cli -g
-  - hexo clean
+  - npm install
   - hexo g
   artifacts:
     paths:
