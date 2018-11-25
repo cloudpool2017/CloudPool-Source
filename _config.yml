@@ -104,15 +104,16 @@ about:
   banner: /images/about.jpg
   avatar: /images/logo.png
   cloudpool: /images/cloudpool.png 
-  sitedescription: CloudPool浊池是由一群年轻人管理的博客，目前托管于Github，文章、图片等来源于朋友们自愿提交。如果你也有兴趣加入我们或者给我们提意见，欢迎联系我们<br/><i>我们都是年轻人&emsp;&emsp;&emsp;&emsp;——乌青</i><br/><br/>
-                   邮箱：（团队）cloudpool2017@gmail.com　（个人）lyj361@163.com<br/>
-                   QQ：（团队）3379609674　（个人）1783074382<br />
+  sitedescription: CloudPool浊池是由一群年轻人管理的博客，目前托管于GitLab，文章、图片等来源于朋友们自愿提交。
+                   如果你也有兴趣加入我们或者给我们提意见，欢迎联系我们<br/>
+                   <i>我们都是年轻人&emsp;&emsp;&emsp;&emsp;——乌青</i><br/><br/>
+                   邮箱：<a href=mailto:cloudpool@zhuochi.org>cloudpool@zhuochi.org</a><br/>
   
 member:
   total: 15
   m1: StʌrunneR
   descriptionm1: 站长
-  contactm1: QQ 1783074382<br/>邮箱 lyj361@163.com
+  contactm1: QQ 1783074382<br/>邮箱 nl@zhuochi.org
   m2: Dark.∞
   descriptionm2: 这个人什么都不想写，很懒
   contactm2: QQ 1287008710
