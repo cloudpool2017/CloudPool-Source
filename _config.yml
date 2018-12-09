@@ -19,8 +19,8 @@ keyword: 浊池, cloudpool
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://zhuochi.org
-# url: https://cloudpool.co
+# url: https://zhuochi.org
+url: https://cloudpool.co
 root: /
 permalink: :title/
 permalink_defaults:
@@ -29,16 +29,17 @@ permalink_defaults:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  ## repo: git@git.coding.net:CloudPool/CloudPool.git
+  repo: git@github.com:cloudpool2017/cp-test.git
+  ## repo: git@git.coding.net:CloudPool/cp-test.git
   ## repo: git@gitlab.com:cloudpool2017/cloudpool-website.git
-  ## branch: master
+  branch: master
 
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
+tag_dir: tag
+archive_dir: archive
+category_dir: category
 mag_dir: cloudpool
 code_dir: downloads/code
 i18n_dir: :lang

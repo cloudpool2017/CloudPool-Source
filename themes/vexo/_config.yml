@@ -2,9 +2,9 @@ excerpt_link: 阅读全文
 
 menu:
  主页: /
- 分类: /categories/
- 标签: /tags/
- 归档: /archives/
+ 分类: /category/
+ 标签: /tag/
+ 归档: /archive/
  网刊: /cloudpoolmag/
  关于: /about/
 
@@ -30,15 +30,6 @@ donate: true
 # qrcode
 qrcode: true
 
-# gitment
-#gitment_owner: 
-#gitment_repo: 
-#gitment_oauth_id: 
-#gitment_oauth_secret: 
-
-# uyan
-# if you want to use uyan as your blog comment, plz remove/comment out gitment config
-
 baidu_id: 
 
 # MathJax Support
@@ -46,3 +37,12 @@ mathjax:
   enable: false
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+
+# Comment
+comment:
+  valine:
+    appId: FFILiRjt6XzkMwRRA630lhlz-gzGzoHsz
+    appKey: eDpEqPczDrnftRF0pt1KQUy5
+    placeholder: 说点什么8
+    pageSize: 8
+    guest_info: nick,mail,link
