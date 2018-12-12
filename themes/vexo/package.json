@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/yanm1ng/hexo-theme-vexo",
   "devDependencies": {
-    "ejs-lint": "^0.2.0",
-    "eslint": "^3.14.0",
+    "ejs-lint": "^0.3.0",
+    "eslint": "^5.10.0",
     "eslint-plugin-import": "^2.2.0",
-    "standard": "^10.0.2"
+    "standard": "^12.0.1"
   },
   "standard": {
     "globals": [
