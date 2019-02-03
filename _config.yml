@@ -19,8 +19,8 @@ keyword: 浊池, cloudpool
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-# url: https://zhuochi.org
-url: https://cloudpool.co
+url: https://zhuochi.org
+# url: https://cloudpool.co
 root: /
 permalink: :title/
 permalink_defaults:
