@@ -8,7 +8,7 @@ node_js: stable
 
 branches:
   only:
-    - starunner
+    - hexo
 
 before_install: 
   - export TZ='Asia/Shanghai'
@@ -20,4 +20,15 @@ install:
 script:
   - hexo clean
   - hexo generate
-  - hexo deploy
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: public
+  name: $GIT_NAME
+  email: $GIT_EMAIL
+  keep-history: true
+  target-branch: master
+  on:
+    branch: hexo
