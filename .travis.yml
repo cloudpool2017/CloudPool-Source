@@ -13,9 +13,10 @@ branches:
 before_install: 
   - export TZ='Asia/Shanghai'
   - npm install hexo-cli -g
+  - npm install
+
 
 install:
-  - npm install
   - npm install --save hexo-helper-live2d
 
 script:
