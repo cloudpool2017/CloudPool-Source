@@ -10,7 +10,7 @@
   
   <title>
     
-    CloudPool浊池
+    问与答01 | CloudPool浊池
     
   </title>
   <!-- CSS -->
@@ -143,35 +143,148 @@
 </header>
 
     <div id="article-banner">
-  <h2>文章归档</h2>
-  <p class="post-date">按时间排序</p>
+  <h2>
+    问与答01
+  </h2>
+  <p class="post-date">
+    2017-05-14
+  </p>
 </div>
-<main class="app-body" id="archives">
+<main class="app-body flex-box">
+  <!-- Catalog START -->
   
+  <!-- Catalog END -->
+  <!-- Article START -->
+  <article class="post-article">
+    <div class="article-author">
+    
+</div>
+
+    <section class="markdown-content" style="font-family:; text-indent:">
+      <p>　　　　“你知道静音的时候<br>　　　　　　我听到的是什么吗？<br>　　　　除了嚼东西的嘎嘣声<br>　　　　还有永远都不会消停的<br>　　　　　　耳鸣声（wēng是这样吗“嗡”）</p>
+<hr>
+<p>　　　　静音的时候听到的声音<br>　　　　好像小时候躺在床上特别安静的时候<br>　　　　我以为是电流跑步的声音（如果有的话）<br>　　　　我感觉我脑子里全是电流（wēng——“嗡”）</p>
+
+    </section>
+    <!-- Tags -->
+    
+    <!-- Busuanzi Counting -->
+    <!-- <div class="busuanzi_page_pv">
+    <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+    </span>
+</div> -->
+    <!-- SideBar Catalog -->
+    
+    <!-- Comment -->
+    <div id="vcomments"></div>
+<script src="/js/Valine.min.js"></script> <!-- version: 1.4.14 -->
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'M2JD6yGQhefhH2O0aSjFfclc-MdYXbMMI',
+        appKey: 'arEPHdbMnKwMjQgiWsLgw34N',
+        placeholder: "说点什么吧",
+        pageSize:'8',
+    })
+</script>
+
+
+    <!-- QR Code -->
+    <!-- QRCode START -->
+<div class="qrcode">
+  <canvas id="share-qrcode"></canvas>
+  <p class="notice">扫描二维码，分享此文章</p>
+</div>
+<!-- QRCode END -->
+<div class="post-share">
   
-  
-    <section class="time-section">
-  <h1 class="section-year">
-    2099
-  </h1>
-  <div class="section-list">
+    
+      <a href="mailto:cloudpool2017@gmail.com" class="fa fa-envelope"></a>
     
     
-      <div class="section-list-item">
-        <a href="/about/help/" class="archive-title" target="_blank">【手动置顶】新的开始？</a>
-        <p class="archive-date">01-01</p>
-      </div>
+      <a href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://cloudpool.me/1posts/writing/%E6%B5%8A%E8%AF%97/%E9%97%AE%E4%B8%8E%E7%AD%9401.html&title=问与答01&pics=https://cloudpool.me/images/logo.png&summary=" class="fa" style="position:relative" aria-hidden="true" target="_blank">
+        <span style="color:white;position:absolute;align:centre;font-size:.95em;font-weight:bold">ｚ</span>  
+        <span class="fa-star"></span>
+      </a>
     
-  </div>
-</section>
+    
+      <a href="http://v.t.sina.com.cn/share/share.php?url=https://cloudpool.me/1posts/writing/%E6%B5%8A%E8%AF%97/%E9%97%AE%E4%B8%8E%E7%AD%9401.html&title=问与答01&pic=https://cloudpool.me/images/logo.png&summary=" class="fa fa-weibo" aria-hidden="true" target="_blank"></a>
+    
+    
+        <a href="https://www.douban.com/recommend/?url=https://cloudpool.me/1posts/writing/%E6%B5%8A%E8%AF%97/%E9%97%AE%E4%B8%8E%E7%AD%9401.html&title=问与答01&pic=https://cloudpool.me/images/logo.png&summary=" class="fa fa-book" aria-hidden="true" target="_blank"></a>
+    
+    
+      <a href="http://tieba.baidu.com/f/commit/share/openShareApi?url=https://cloudpool.me/1posts/writing/%E6%B5%8A%E8%AF%97/%E9%97%AE%E4%B8%8E%E7%AD%9401.html&title=问与答01&pic=https://cloudpool.me/images/logo.png&summary=" class="fa" style="position:relative" aria-hidden="true" target="_blank">
+        <span style="color:white;position:absolute;align:centre;font-size:.9em;font-weight:bold;margin-top:.08em">贴</span>
+        <span class="fa-square"></span>
+      </a>
+    
   
+</div>
+    <!-- advertisement -->
+    <div class="advertisement">
+      <p> 广告：快速学习 Crash Course十分钟速成课 <a href="https://crashcourse.club/" target="_blank" rel="noopener">字幕组网站</a></p>
+    </div>
+  </article>
+  <!-- Article END -->
 </main>
 
 <script>
   (function () {
-    var url = 'https://cloudpool.me/archive/2099/index.html';
-    $('#article-banner').geopattern(url);
-    $('.header').removeClass('fixed-header');
+    var url = 'https://cloudpool.me/1posts/writing/浊诗/问与答01.html';
+    var banner = ''
+    if (banner !== '' && banner !== 'undefined' && banner !== 'null') {
+      $('#article-banner').css({
+        'background-image': 'url(' + banner + ')'
+      })
+    } else {
+      $('#article-banner').geopattern(url)
+    }
+    $('.header').removeClass('fixed-header')
+
+    // error image
+    $(".markdown-content img").on('error', function () {
+      $(this).attr('src', 'http://file.muyutech.com/error-img.png')
+      $(this).css({
+        'cursor': 'default'
+      })
+    })
+
+    // zoom image
+    $(".markdown-content img").on('click', function () {
+      var src = $(this).attr('src')
+      if (src !== 'http://file.muyutech.com/error-img.png') {
+        var imageW = $(this).width()
+        var imageH = $(this).height()
+
+        var zoom = ($(window).width() * 0.95 / imageW).toFixed(2)
+        zoom = zoom < 1 ? 1 : zoom
+        zoom = zoom > 2 ? 2 : zoom
+        var transY = (($(window).height() - imageH) / 2).toFixed(2)
+
+        $('body').append('<div class="image-view-wrap"><div class="image-view-inner"><img src="' + src +
+          '" /></div></div>')
+        $('.image-view-wrap').addClass('wrap-active')
+        $('.image-view-wrap img').css({
+          'width': `${imageW}`,
+          'transform': `translate3d(0, ${transY}px, 0) scale3d(${zoom}, ${zoom}, 1)`
+        })
+        $('html').css('overflow', 'hidden')
+
+        $('.image-view-wrap').on('click', function () {
+          $(this).remove()
+          $('html').attr('style', '')
+        })
+      }
+    })
+
+    // qrcode
+    var qr = new QRious({
+      element: document.getElementById('share-qrcode'),
+      value: document.location.href
+    });
+
   })();
 </script>
     <div class="sidebar">
