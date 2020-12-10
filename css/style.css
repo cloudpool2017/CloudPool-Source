@@ -1238,6 +1238,11 @@ h3 {
 .daily {
   padding: 4em 5em;
 }
+@media screen and (max-width: 480px) {
+  .daily {
+    padding: 1em 5em;
+  }
+}
 @-moz-keyframes shine {
   0%, 100% {
     opacity: 0.1;
