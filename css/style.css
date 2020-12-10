@@ -1236,12 +1236,7 @@ h3 {
   line-height: 1.5em;
 }
 .daily {
-  padding: 4em 5em;
-}
-@media screen and (max-width: 480px) {
-  .daily {
-    padding: 1em 5em;
-  }
+  padding: 4em 0em;
 }
 @-moz-keyframes shine {
   0%, 100% {
