@@ -10,7 +10,7 @@
   
   <title>
     
-    每日一句 | CloudPool浊池
+    一句 | CloudPool浊池
     
   </title>
   <!-- CSS -->
@@ -80,12 +80,6 @@
           
         </li>
       
-        <li class="list-item">
-          
-            <a href="https://cloudpool.lofter.com" target="_blank" rel="noopener" class="item-link">LOFTER</a>
-          
-        </li>
-      
     </ul>
     <div class="menu">
       <span class="icon-bar"></span>
@@ -131,12 +125,6 @@
             
           </li>
         
-          <li class="menu-item">
-            
-              <a href="https://cloudpool.lofter.com" target="_blank" rel="noopener" class="menu-link">LOFTER</a>
-            
-          </li>
-        
       </ul>
     </div>
   </div>
@@ -144,16 +132,20 @@
 
     <div class="app-body daily" >
   <div class="card-container"></div>
-  <div id="vcomments"></div>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/valine/1.4.14/Valine.min.js"></script>
+  
+<script src="/custom/valine.min.js"></script>
+
+  <div id="vcomments" class="commentboard"></div>
   <script>
-    new Valine({
-      el: '#vcomments',
-      appId: 'M2JD6yGQhefhH2O0aSjFfclc-MdYXbMMI',
-      appKey: 'arEPHdbMnKwMjQgiWsLgw34N',
-      placeholder: "每日打卡",
-      pageSize: '8',
-    })
+      new Valine({
+          el: '#vcomments',
+          appId: 'M2JD6yGQhefhH2O0aSjFfclc-MdYXbMMI',
+          appKey: 'arEPHdbMnKwMjQgiWsLgw34N',
+          avatar: '',
+          enableQQ: true,
+          placeholder: '支持Markdown语法 \n\n必需填写昵称。若填写QQ号，再点击邮箱栏会自动获取QQ昵称以及头像 ',
+          requiredFields: ['nick'],
+      })
   </script>
 </div>
 
