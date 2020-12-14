@@ -51,7 +51,7 @@ pre {
 }
 .app-body {
   padding: 2em 1em;
-  margin: 0 auto;
+  margin: auto 140px;
   height: 100%;
   max-width: 1200px;
   position: relative;
@@ -207,7 +207,7 @@ h2.article-head {
 .header-container {
   max-width: 1200px;
   height: 40px;
-  margin: 0 auto;
+  margin: auto 125px;
   padding: 10px 40px;
   position: relative;
 }
@@ -220,7 +220,7 @@ h2.article-head {
 .logo {
   width: 40px;
   float: left;
-  height: 1.2em;
+  height: 28px;
   margin-right: 0.8em;
 }
 .home-link {
