@@ -193,33 +193,26 @@ Cwtch💕：其实那天和小孩子聊天 最让我震惊的除了谈恋爱 还
   </div>
 
     <!-- Comment -->
-    <div class="app-body daily" >
-  <div class="card-container"></div>
-  
+    <div class="daily" >
+    <div class="card-container"></div>
+    
 <script src="/custom/valine.min.js"></script>
 
-  <div id="vcomments" class="commentboard"></div>
-  <script>
-      new Valine({
-          el: '#vcomments',
-          appId: '',
-          appKey: '',
-          avatar: '',
-          enableQQ: true,
-          placeholder: ' ',
-          requiredFields: [''],
-      })
-  </script>
-</div>
-
-
+    <div id="vcomments" class="commentboard"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '',
+            appKey: '',
+            avatar: '',
+            enableQQ: true,
+            placeholder: ' ',
+            requiredFields: [''],
+        })
+    </script>
+  </div>
     <!-- QR Code -->
-    <!-- QRCode START -->
-<div class="qrcode">
-  <canvas id="share-qrcode"></canvas>
-  <p class="notice">扫描二维码，分享此文章</p>
-</div>
-<!-- QRCode END -->
+    <!-- Share Button -->
 <div class="post-share">
   
     
@@ -245,6 +238,12 @@ Cwtch💕：其实那天和小孩子聊天 最让我震惊的除了谈恋爱 还
     
   
 </div>
+<!-- QRCode -->
+<div class="qrcode">
+  <canvas id="share-qrcode"></canvas>
+  <p class="notice">扫描二维码，分享此文章</p>
+</div>
+
     <!-- advertisement -->
     <div class="advertisement">
       <p> 广告：快速学习 Crash Course十分钟速成课 <a href="https://crashcourse.club/" target="_blank" rel="noopener">字幕组网站</a></p>

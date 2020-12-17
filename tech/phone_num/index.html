@@ -175,17 +175,17 @@
   <div class="nav-container">
     <!-- reverse left and right to put prev and next in a more logic postition -->
     
-      <a class="nav-left" href="/tech/movie/">
+      <a class="nav-left" href="/tech/network/">
         <span class="nav-arrow">← </span>
         
-          看电影下载电影下载视频
+          网络提速
         
       </a>
     
     
-      <a class="nav-right" href="/tech/network/">
+      <a class="nav-right" href="/tech/software/">
         
-          网络提速
+          实用软件推荐
         
         <span class="nav-arrow"> →</span>
       </a>
@@ -193,33 +193,26 @@
   </div>
 
     <!-- Comment -->
-    <div class="app-body daily" >
-  <div class="card-container"></div>
-  
+    <div class="daily" >
+    <div class="card-container"></div>
+    
 <script src="/custom/valine.min.js"></script>
 
-  <div id="vcomments" class="commentboard"></div>
-  <script>
-      new Valine({
-          el: '#vcomments',
-          appId: '',
-          appKey: '',
-          avatar: '',
-          enableQQ: true,
-          placeholder: ' ',
-          requiredFields: [''],
-      })
-  </script>
-</div>
-
-
+    <div id="vcomments" class="commentboard"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '',
+            appKey: '',
+            avatar: '',
+            enableQQ: true,
+            placeholder: ' ',
+            requiredFields: [''],
+        })
+    </script>
+  </div>
     <!-- QR Code -->
-    <!-- QRCode START -->
-<div class="qrcode">
-  <canvas id="share-qrcode"></canvas>
-  <p class="notice">扫描二维码，分享此文章</p>
-</div>
-<!-- QRCode END -->
+    <!-- Share Button -->
 <div class="post-share">
   
     
@@ -245,6 +238,12 @@
     
   
 </div>
+<!-- QRCode -->
+<div class="qrcode">
+  <canvas id="share-qrcode"></canvas>
+  <p class="notice">扫描二维码，分享此文章</p>
+</div>
+
     <!-- advertisement -->
     <div class="advertisement">
       <p> 广告：快速学习 Crash Course十分钟速成课 <a href="https://crashcourse.club/" target="_blank" rel="noopener">字幕组网站</a></p>

@@ -222,16 +222,16 @@
     <div class="tags">
       <span>Tags:</span>
       
-  <a href="/tag#安装" >
-    <span class="tag-code">安装</span>
-  </a>
-
   <a href="/tag#实用" >
     <span class="tag-code">实用</span>
   </a>
 
   <a href="/tag#软件" >
     <span class="tag-code">软件</span>
+  </a>
+
+  <a href="/tag#安装" >
+    <span class="tag-code">安装</span>
   </a>
 
     </div>
@@ -247,10 +247,10 @@
   <div class="nav-container">
     <!-- reverse left and right to put prev and next in a more logic postition -->
     
-      <a class="nav-left" href="/tech/network/">
+      <a class="nav-left" href="/tech/phone_num/">
         <span class="nav-arrow">← </span>
         
-          网络提速
+          临时手机号与邮箱
         
       </a>
     
@@ -265,33 +265,26 @@
   </div>
 
     <!-- Comment -->
-    <div class="app-body daily" >
-  <div class="card-container"></div>
-  
+    <div class="daily" >
+    <div class="card-container"></div>
+    
 <script src="/custom/valine.min.js"></script>
 
-  <div id="vcomments" class="commentboard"></div>
-  <script>
-      new Valine({
-          el: '#vcomments',
-          appId: '',
-          appKey: '',
-          avatar: '',
-          enableQQ: true,
-          placeholder: ' ',
-          requiredFields: [''],
-      })
-  </script>
-</div>
-
-
+    <div id="vcomments" class="commentboard"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '',
+            appKey: '',
+            avatar: '',
+            enableQQ: true,
+            placeholder: ' ',
+            requiredFields: [''],
+        })
+    </script>
+  </div>
     <!-- QR Code -->
-    <!-- QRCode START -->
-<div class="qrcode">
-  <canvas id="share-qrcode"></canvas>
-  <p class="notice">扫描二维码，分享此文章</p>
-</div>
-<!-- QRCode END -->
+    <!-- Share Button -->
 <div class="post-share">
   
     
@@ -317,6 +310,12 @@
     
   
 </div>
+<!-- QRCode -->
+<div class="qrcode">
+  <canvas id="share-qrcode"></canvas>
+  <p class="notice">扫描二维码，分享此文章</p>
+</div>
+
     <!-- advertisement -->
     <div class="advertisement">
       <p> 广告：快速学习 Crash Course十分钟速成课 <a href="https://crashcourse.club/" target="_blank" rel="noopener">字幕组网站</a></p>

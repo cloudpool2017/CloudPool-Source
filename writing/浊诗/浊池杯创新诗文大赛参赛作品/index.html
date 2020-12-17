@@ -166,17 +166,17 @@
   <div class="nav-container">
     <!-- reverse left and right to put prev and next in a more logic postition -->
     
-      <a class="nav-left" href="/writing/%E6%B5%8A%E8%AF%97/%E6%99%9A%E8%87%AA%E4%B9%A0%E6%97%A0%E8%81%8A+%E6%99%9A%E8%87%AA%E4%B9%A0%E6%97%A0%E8%81%8A/">
+      <a class="nav-left" href="/about/why_we_made_it/">
         <span class="nav-arrow">← </span>
         
-          晚自习无聊+晚自习无聊
+          为什么我们要做浊池
         
       </a>
     
     
-      <a class="nav-right" href="/writing/%E6%B5%8A%E8%A1%8C/%E6%97%A5%E8%AE%B02017.1.15/">
+      <a class="nav-right" href="/writing/%E6%B5%8A%E8%AF%97/%E6%99%9A%E8%87%AA%E4%B9%A0%E6%97%A0%E8%81%8A+%E6%99%9A%E8%87%AA%E4%B9%A0%E6%97%A0%E8%81%8A/">
         
-          日记2017.1.15
+          晚自习无聊+晚自习无聊
         
         <span class="nav-arrow"> →</span>
       </a>
@@ -184,33 +184,26 @@
   </div>
 
     <!-- Comment -->
-    <div class="app-body daily" >
-  <div class="card-container"></div>
-  
+    <div class="daily" >
+    <div class="card-container"></div>
+    
 <script src="/custom/valine.min.js"></script>
 
-  <div id="vcomments" class="commentboard"></div>
-  <script>
-      new Valine({
-          el: '#vcomments',
-          appId: '',
-          appKey: '',
-          avatar: '',
-          enableQQ: true,
-          placeholder: ' ',
-          requiredFields: [''],
-      })
-  </script>
-</div>
-
-
+    <div id="vcomments" class="commentboard"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '',
+            appKey: '',
+            avatar: '',
+            enableQQ: true,
+            placeholder: ' ',
+            requiredFields: [''],
+        })
+    </script>
+  </div>
     <!-- QR Code -->
-    <!-- QRCode START -->
-<div class="qrcode">
-  <canvas id="share-qrcode"></canvas>
-  <p class="notice">扫描二维码，分享此文章</p>
-</div>
-<!-- QRCode END -->
+    <!-- Share Button -->
 <div class="post-share">
   
     
@@ -236,6 +229,12 @@
     
   
 </div>
+<!-- QRCode -->
+<div class="qrcode">
+  <canvas id="share-qrcode"></canvas>
+  <p class="notice">扫描二维码，分享此文章</p>
+</div>
+
     <!-- advertisement -->
     <div class="advertisement">
       <p> 广告：快速学习 Crash Course十分钟速成课 <a href="https://crashcourse.club/" target="_blank" rel="noopener">字幕组网站</a></p>
