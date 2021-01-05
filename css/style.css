@@ -799,12 +799,6 @@ h2.article-head {
   bottom: 6.5em;
   left: 1em;
 }
-.busuanzi_page_pv {
-  font-size: 0.8em;
-  color: #808080;
-  text-align: right;
-  float: right;
-}
 .nav-container {
   width: 100%;
   padding-top: 1.5em;
@@ -1241,6 +1235,11 @@ h3 {
 }
 .onedaily {
   padding: 4em 0em;
+}
+.busuanzi_page_pv {
+  font-size: 0.8em;
+  color: #808080;
+  text-align: right;
 }
 @-moz-keyframes shine {
   0%, 100% {
