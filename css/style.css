@@ -1029,6 +1029,7 @@ h3 {
 .catalog-container .toc-main .toc-nav {
   padding: 0;
   margin-top: 1em;
+  margin-right: 0.2em;
   overflow-y: scroll;
   max-height: 480px;
 }
