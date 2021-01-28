@@ -477,36 +477,40 @@ h2.article-head {
 }
 .markdown-content h1,
 .article-summary h1 {
-  font-size: 1.8em;
+  font-size: 2em;
 }
 .markdown-content h2,
 .article-summary h2 {
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 .markdown-content h3,
 .article-summary h3 {
   margin: 1em 0;
-  font-size: 1.3em;
+  font-size: 1.5em;
   padding-bottom: 0.3em;
   border-bottom: 1px solid #e5e5e5;
 }
 .markdown-content h4,
 .article-summary h4 {
   margin: 1em 0;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 .markdown-content h4:before,
 .article-summary h4:before {
   content: "#";
   color: #04b2f1;
   margin-right: 5px;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: 700;
 }
 .markdown-content h5,
 .article-summary h5 {
-  font-size: 1em;
+  font-size: 1.2em;
   margin: 0.8em 0;
+}
+.markdown-content h6,
+.article-summary h6 {
+  font-size: 1em;
 }
 .markdown-content blockquote,
 .article-summary blockquote {
