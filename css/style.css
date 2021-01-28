@@ -1031,7 +1031,7 @@ h3 {
   margin-top: 1em;
   margin-right: 0.2em;
   overflow-y: scroll;
-  max-height: 480px;
+  max-height: 560px;
 }
 .catalog-container .toc-main .toc-nav::-webkit-scrollbar {
   display: none;
