@@ -612,6 +612,7 @@ h2.article-head {
   background-color: #000;
   color: #000;
   border-radius: 2px;
+  text-decoration: none;
 }
 .markdown-content del a,
 .article-summary del a {
