@@ -182,6 +182,13 @@
 <li><a href="Ping_IPv6_DNS.bat">IPv6 DNS Ping 测试</a></li>
 </ol>
 <hr>
+<h2 id="dig命令"><a href="#dig命令" class="headerlink" title="dig命令"></a>dig命令</h2><p>用途：显示详细的DNS查询过程（加强的ping/nslookup）</p>
+<ol>
+<li>下载 <a href="https://www.isc.org/download/" target="_blank" rel="noopener">https://www.isc.org/download/</a></li>
+<li>管理员权限安装 bindinstall.exe<br> Target Directory = C:\Program Files\dig<br> Options = Tools Only<br> 若安装过程中安装Visual C++报错，忽略即可</li>
+<li>添加环境变量<br> 右键此电脑 - 属性 - 高级系统设置 - 环境变量 - 用户变量.双击Path - 新建添加环境变量 C:\Program Files\dig\bin</li>
+</ol>
+<p>之后在cmd/powershell中即可使用命令<br>    dig website.com<br>or<br>    dig website.com +short</p>
 
     </section>
     <!-- Tags -->
