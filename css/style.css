@@ -634,10 +634,10 @@ h2.article-head {
 }
 .article-author {
   font-family: Calibri;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: bold;
   color: #808080;
-  line-height: 1.2em;
+  line-height: 1em;
 }
 .authorlogo {
   width: 1.4em;
@@ -996,25 +996,24 @@ h3 {
   -webkit-flex-basis: 150px;
   flex-shrink: 0;
   -webkit-flex-shrink: 0;
-  scrollbar-width: none;
-}
-.catalog-container ::-webkit-scrollbar {
-  display: none;
 }
 @media screen and (max-width: 480px) {
   .catalog-container {
     display: none;
   }
 }
-.catalog-container .fixed-toc {
-  position: fixed;
-  top: 90px;
+@media screen and (max-width: 960px) and (min-width: 480px) {
+  .catalog-container {
+    display: none;
+  }
 }
 .catalog-container .toc-main {
   padding-left: 20px;
   border-left: 1px solid #e5e5e5;
   width: 160px;
   box-sizing: border-box;
+  position: absolute;
+  top: 260px;
 }
 .catalog-container .toc-main .toc-title {
   font-size: 1.2em;
@@ -1036,6 +1035,7 @@ h3 {
   margin-top: 1em;
   margin-right: 0.2em;
   overflow-y: scroll;
+  scrollbar-width: thin;
   max-height: 560px;
 }
 .catalog-container .toc-main ol {
@@ -1044,6 +1044,10 @@ h3 {
 .catalog-container .toc-main li {
   list-style-type: none;
   line-height: 1.5;
+}
+.catalog-container .fixed-toc {
+  position: fixed;
+  top: 70px;
 }
 #category-cloud {
   margin: 30px 0;
