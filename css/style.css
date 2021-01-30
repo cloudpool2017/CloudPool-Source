@@ -1038,9 +1038,6 @@ h3 {
   overflow-y: scroll;
   max-height: 560px;
 }
-.catalog-container .toc-main .toc-nav::-webkit-scrollbar {
-  display: none;
-}
 .catalog-container .toc-main ol {
   padding-left: 8px;
 }
