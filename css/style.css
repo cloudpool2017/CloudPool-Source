@@ -362,6 +362,72 @@ h2.article-head {
 .unvisible {
   visibility: hidden;
 }
+@media screen and (max-width: 480px) {
+  .live2d {
+    display: none;
+  }
+}
+.sidebar {
+  cursor: pointer;
+  position: fixed;
+  box-sizing: border-box;
+  right: -1.5em;
+  bottom: 3em;
+  width: 7.5em;
+  height: 2.5em;
+  padding: 0.3em;
+  background-color: #04b2f1;
+  border-radius: 1.25em;
+  transform: translate(4em, 0);
+  transition: all 0.3s ease 1.5s;
+  -webkit-transition: all 0.3s ease 1.5s;
+  box-shadow: 0 0 0.2em 0 rgba(0,0,0,0.12), 0 0.2em 0.2em 0 rgba(0,0,0,0.24);
+}
+.sidebar:hover {
+  right: 1em;
+  transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+}
+.scroll-top {
+  color: #fff;
+  font-size: 2em;
+  width: 1em;
+}
+.share-icon {
+  color: #fff;
+  font-size: 2em;
+  width: 1em;
+  display: inline;
+}
+.share-icon .list-icon {
+  position: relative;
+  display: block;
+  width: 1em;
+  bottom: 6.5em;
+  left: 1em;
+}
+.nav-container {
+  width: 100%;
+  padding-top: 1.5em;
+  margin-top: 1.5em;
+  border-top: 1px dashed #e5e5e5;
+  font-weight: 600;
+}
+.nav-container:after,
+.nav-container:before {
+  content: '';
+  display: table;
+  clear: both;
+}
+.nav-container .nav-left {
+  float: left;
+}
+.nav-container .nav-right {
+  float: right;
+}
+.nav-container .nav-arrow {
+  color: #34495e;
+}
 #article-banner {
   width: 100%;
   box-sizing: border-box;
@@ -759,72 +825,6 @@ h2.article-head {
   border: 1px solid $main-color;
   color: $main-color;
   transform: rotate(-360deg);
-}
-@media screen and (max-width: 480px) {
-  .live2d {
-    display: none;
-  }
-}
-.sidebar {
-  cursor: pointer;
-  position: fixed;
-  box-sizing: border-box;
-  right: -1.5em;
-  bottom: 3em;
-  width: 7.5em;
-  height: 2.5em;
-  padding: 0.3em;
-  background-color: #04b2f1;
-  border-radius: 1.25em;
-  transform: translate(4em, 0);
-  transition: all 0.3s ease 1.5s;
-  -webkit-transition: all 0.3s ease 1.5s;
-  box-shadow: 0 0 0.2em 0 rgba(0,0,0,0.12), 0 0.2em 0.2em 0 rgba(0,0,0,0.24);
-}
-.sidebar:hover {
-  right: 1em;
-  transition-delay: 0s;
-  -webkit-transition-delay: 0s;
-}
-.scroll-top {
-  color: #fff;
-  font-size: 2em;
-  width: 1em;
-}
-.share-icon {
-  color: #fff;
-  font-size: 2em;
-  width: 1em;
-  display: inline;
-}
-.share-icon .list-icon {
-  position: relative;
-  display: block;
-  width: 1em;
-  bottom: 6.5em;
-  left: 1em;
-}
-.nav-container {
-  width: 100%;
-  padding-top: 1.5em;
-  margin-top: 1.5em;
-  border-top: 1px dashed #e5e5e5;
-  font-weight: 600;
-}
-.nav-container:after,
-.nav-container:before {
-  content: '';
-  display: table;
-  clear: both;
-}
-.nav-container .nav-left {
-  float: left;
-}
-.nav-container .nav-right {
-  float: right;
-}
-.nav-container .nav-arrow {
-  color: #34495e;
 }
 #archives:before {
   position: absolute;

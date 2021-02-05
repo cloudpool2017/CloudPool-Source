@@ -26,7 +26,7 @@
   <script type="text/javascript" src="/js/geopattern.min.js"></script> <!-- version: 1.2.3 -->
   <script type="text/javascript" src="/js/nprogress.min.js"></script>  <!-- version: 0.2.0 --> 
   <script async src="/js/busuanzi.js"></script>
-  <script type="text/javascript" src="/js/qrious.min.js"></script> <!-- version: 4.0.2 -->
+    <!--  <script type="text/javascript" src="/js/qrious.min.js"></script>  version: 4.0.2 -->
     <!--  
 <script src="/js/qrious.js"></script>
 <script src="/js/gitment.js"></script>
@@ -169,35 +169,35 @@
 </header>
 
     <div id="article-banner">
-  <h2>
-    【手动置顶】新的开始？
-  </h2>
-  <p class="post-date">
-    2099-01-01
-  </p>
-</div>
-<!--
-<div class="catalog-container">
-  <div class="toc-main">
-    <strong class="toc-title">目录</strong>
-    
+    <h2>
+      【手动置顶】新的开始？
+    </h2>
+    <p class="post-date">
+      2099-01-01
+    </p>
   </div>
-</div>
--->
-<main class="app-body flex-box">
-  <!-- Article START -->
-  <article class="post-article">
-    <div class="article-author">
+  <!--
+  <div class="catalog-container">
+    <div class="toc-main">
+      <strong class="toc-title">目录</strong>
+      
+    </div>
+  </div>
+  -->
+  <main class="app-body flex-box">
+    <!-- Article START -->
+    <article class="post-article">
+      <div class="article-author">
     
         
     
 </div>
 
-    <!-- Busuanzi Post Counting -->
-    
-    <section class="markdown-content" style="font-family:; text-indent:">
+      <!-- Busuanzi Post Counting -->
       
-        <div id="aplayer-OMQSESzB" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+      <section class="markdown-content" style="font-family:; text-indent:">
+        
+        <div id="aplayer-XLVvvMTQ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content">
 [00:09.03]Steady yourself even though you know that you're falling「即便坠入万劫不复 也请记得要醒转站稳」
 [00:12.44]Maybe you're falling but you're still alive「可能你会偶然失足 但内心深处你仍不服输」
@@ -235,7 +235,7 @@
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-OMQSESzB"),
+            element: document.getElementById("aplayer-XLVvvMTQ"),
             narrow: false,
             autoplay: true,
             showlrc: 2,
@@ -321,11 +321,11 @@
 |名称  |主域名         |百度是否收录|其他                    |
 |GitHub|www.github.com|百度不收录  |访问速度中等，服务较稳定  |
 |GitLab|www.gitlab.com|百度可能收录|访问速度中等，服务偶尔中断|</code></pre>
-    </section>
-    <!-- Tags -->
-    
-    <!-- SideBar Catalog -->
-    
+      </section>
+      <!-- Tags -->
+      
+      <!-- SideBar Catalog -->
+      
   <div class="nav-container">
     <!-- reverse left and right to put prev and next in a more logic postition -->
     
@@ -339,8 +339,8 @@
     
   </div>
 
-    <!-- Comment -->
-    <div class="daily">
+      <!-- Comment -->
+      <div class="daily">
     <div class="card-container"></div>
     
 <script src="/custom/valine.min.js"></script>
@@ -358,8 +358,8 @@
         })
     </script>
 </div>
-    <!-- QR Code -->
-    <!-- Share Button -->
+      <!-- QR Code -->
+      <!-- Share Button -->
 <div class="post-share">
   
     
@@ -391,71 +391,70 @@
   <p class="notice">扫描二维码，分享此文章</p>
 </div>
 
-    <!-- advertisement -->
-    <div class="advertisement">
-      <p> 广告：快速学习 Crash Course十分钟速成课 <a href="https://crashcourse.club/" target="_blank" rel="noopener">字幕组网站</a></p>
-    </div>
-  </article>
-  <!-- Article END -->
-</main>
-
-<script>
-  (function () {
-    var url = 'https://zhuochi.org/about/help/';
-    var banner = ''
-    if (banner !== '' && banner !== 'undefined' && banner !== 'null') {
-      $('#article-banner').css({
-        'background-image': 'url(' + banner + ')'
-      })
-    } else {
-      $('#article-banner').geopattern(url)
-    }
-    $('.header').removeClass('fixed-header')
-
-    // error image
-    $(".markdown-content img").on('error', function () {
-      $(this).attr('src', 'http://file.muyutech.com/error-img.png')
-      $(this).css({
-        'cursor': 'default'
-      })
-    })
-
-    // zoom image
-    $(".markdown-content img").on('click', function () {
-      var src = $(this).attr('src')
-      if (src !== 'http://file.muyutech.com/error-img.png') {
-        var imageW = $(this).width()
-        var imageH = $(this).height()
-
-        var zoom = ($(window).width() * 0.95 / imageW).toFixed(2)
-        zoom = zoom < 1 ? 1 : zoom
-        zoom = zoom > 2 ? 2 : zoom
-        var transY = (($(window).height() - imageH) / 2).toFixed(2)
-
-        $('body').append('<div class="image-view-wrap"><div class="image-view-inner"><img src="' + src +
-          '" /></div></div>')
-        $('.image-view-wrap').addClass('wrap-active')
-        $('.image-view-wrap img').css({
-          'width': `${imageW}`,
-          'transform': `translate3d(0, ${transY}px, 0) scale3d(${zoom}, ${zoom}, 1)`
+      <!-- advertisement -->
+      <div class="advertisement">
+        <p> 广告：快速学习 Crash Course十分钟速成课 <a href="https://crashcourse.club/" target="_blank" rel="noopener">字幕组网站</a></p>
+      </div>
+    </article>
+    <!-- Article END -->
+  </main>
+  
+  <script>
+    (function () {
+      var url = 'https://zhuochi.org/about/help/';
+      var banner = ''
+      if (banner !== '' && banner !== 'undefined' && banner !== 'null') {
+        $('#article-banner').css({
+          'background-image': 'url(' + banner + ')'
         })
-        $('html').css('overflow', 'hidden')
-
-        $('.image-view-wrap').on('click', function () {
-          $(this).remove()
-          $('html').attr('style', '')
-        })
+      } else {
+        $('#article-banner').geopattern(url)
       }
-    })
-
-    // qrcode
-    var qr = new QRious({
-      element: document.getElementById('share-qrcode'),
-      value: document.location.href
-    });
-
-  })();
-</script>
+      $('.header').removeClass('fixed-header')
+  
+      // error image
+      $(".markdown-content img").on('error', function () {
+        $(this).attr('src', 'http://file.muyutech.com/error-img.png')
+        $(this).css({
+          'cursor': 'default'
+        })
+      })
+  
+      // zoom image
+      $(".markdown-content img").on('click', function () {
+        var src = $(this).attr('src')
+        if (src !== 'http://file.muyutech.com/error-img.png') {
+          var imageW = $(this).width()
+          var imageH = $(this).height()
+  
+          var zoom = ($(window).width() * 0.95 / imageW).toFixed(2)
+          zoom = zoom < 1 ? 1 : zoom
+          zoom = zoom > 2 ? 2 : zoom
+          var transY = (($(window).height() - imageH) / 2).toFixed(2)
+  
+          $('body').append('<div class="image-view-wrap"><div class="image-view-inner"><img src="' + src +
+            '" /></div></div>')
+          $('.image-view-wrap').addClass('wrap-active')
+          $('.image-view-wrap img').css({
+            'width': `${imageW}`,
+            'transform': `translate3d(0, ${transY}px, 0) scale3d(${zoom}, ${zoom}, 1)`
+          })
+          $('html').css('overflow', 'hidden')
+  
+          $('.image-view-wrap').on('click', function () {
+            $(this).remove()
+            $('html').attr('style', '')
+          })
+        }
+      })
+  
+      // qrcode
+      //   var qr = new QRious({
+      //  element: document.getElementById('share-qrcode'),
+      //  value: document.location.href
+      //});
+    })();
+  </script>
       <!-- Catalog START -->
   
   <!-- Catalog END -->

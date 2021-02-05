@@ -26,7 +26,7 @@
   <script type="text/javascript" src="/js/geopattern.min.js"></script> <!-- version: 1.2.3 -->
   <script type="text/javascript" src="/js/nprogress.min.js"></script>  <!-- version: 0.2.0 --> 
   <script async src="/js/busuanzi.js"></script>
-  <script type="text/javascript" src="/js/qrious.min.js"></script> <!-- version: 4.0.2 -->
+    <!--  <script type="text/javascript" src="/js/qrious.min.js"></script>  version: 4.0.2 -->
     <!--  
 <script src="/js/qrious.js"></script>
 <script src="/js/gitment.js"></script>
@@ -167,34 +167,34 @@
 </header>
 
     <div id="article-banner">
-  <h2>
-    在北京第一天
-  </h2>
-  <p class="post-date">
-    2017-01-20
-  </p>
-</div>
-<!--
-<div class="catalog-container">
-  <div class="toc-main">
-    <strong class="toc-title">目录</strong>
-    
+    <h2>
+      在北京第一天
+    </h2>
+    <p class="post-date">
+      2017-01-20
+    </p>
   </div>
-</div>
--->
-<main class="app-body flex-box">
-  <!-- Article START -->
-  <article class="post-article">
-    <div class="article-author">
+  <!--
+  <div class="catalog-container">
+    <div class="toc-main">
+      <strong class="toc-title">目录</strong>
+      
+    </div>
+  </div>
+  -->
+  <main class="app-body flex-box">
+    <!-- Article START -->
+    <article class="post-article">
+      <div class="article-author">
     
         StarunneR
     
 </div>
 
-    <!-- Busuanzi Post Counting -->
-    
-    <section class="markdown-content" style="font-family:; text-indent:">
-      <p><strong><u>在长沙</u></strong></p>
+      <!-- Busuanzi Post Counting -->
+      
+      <section class="markdown-content" style="font-family:; text-indent:">
+        <p><strong><u>在长沙</u></strong></p>
 <ul>
 <li>磁悬浮上</li>
 </ul>
@@ -221,12 +221,12 @@
 <p>不过话又说回来北京是一个穷人有穷人的过法富人有富人的欢愉的地方，也不是什么都贵。十元店里的东西就很便宜（大概因为我在五环）</p>
 <p>我觉得我在两天是看不到真正的北京的。但那又有什么关系呢</p>
 
-    </section>
-    <!-- Tags -->
-    
-    <div class="tags">
-      <span>标签：</span>
+      </section>
+      <!-- Tags -->
       
+      <div class="tags">
+        <span>标签：</span>
+        
   <a href="/tag#随笔" >
     <span class="tag-code">随笔</span>
   </a>
@@ -235,10 +235,10 @@
     <span class="tag-code">游记</span>
   </a>
 
-    </div>
-    
-    <!-- SideBar Catalog -->
-    
+      </div>
+      
+      <!-- SideBar Catalog -->
+      
   <div class="nav-container">
     <!-- reverse left and right to put prev and next in a more logic postition -->
     
@@ -259,8 +259,8 @@
     
   </div>
 
-    <!-- Comment -->
-    <div class="daily">
+      <!-- Comment -->
+      <div class="daily">
     <div class="card-container"></div>
     
 <script src="/custom/valine.min.js"></script>
@@ -278,8 +278,8 @@
         })
     </script>
 </div>
-    <!-- QR Code -->
-    <!-- Share Button -->
+      <!-- QR Code -->
+      <!-- Share Button -->
 <div class="post-share">
   
     
@@ -311,71 +311,70 @@
   <p class="notice">扫描二维码，分享此文章</p>
 </div>
 
-    <!-- advertisement -->
-    <div class="advertisement">
-      <p> 广告：快速学习 Crash Course十分钟速成课 <a href="https://crashcourse.club/" target="_blank" rel="noopener">字幕组网站</a></p>
-    </div>
-  </article>
-  <!-- Article END -->
-</main>
-
-<script>
-  (function () {
-    var url = 'https://zhuochi.org/writing/浊行/在北京第一天/';
-    var banner = ''
-    if (banner !== '' && banner !== 'undefined' && banner !== 'null') {
-      $('#article-banner').css({
-        'background-image': 'url(' + banner + ')'
-      })
-    } else {
-      $('#article-banner').geopattern(url)
-    }
-    $('.header').removeClass('fixed-header')
-
-    // error image
-    $(".markdown-content img").on('error', function () {
-      $(this).attr('src', 'http://file.muyutech.com/error-img.png')
-      $(this).css({
-        'cursor': 'default'
-      })
-    })
-
-    // zoom image
-    $(".markdown-content img").on('click', function () {
-      var src = $(this).attr('src')
-      if (src !== 'http://file.muyutech.com/error-img.png') {
-        var imageW = $(this).width()
-        var imageH = $(this).height()
-
-        var zoom = ($(window).width() * 0.95 / imageW).toFixed(2)
-        zoom = zoom < 1 ? 1 : zoom
-        zoom = zoom > 2 ? 2 : zoom
-        var transY = (($(window).height() - imageH) / 2).toFixed(2)
-
-        $('body').append('<div class="image-view-wrap"><div class="image-view-inner"><img src="' + src +
-          '" /></div></div>')
-        $('.image-view-wrap').addClass('wrap-active')
-        $('.image-view-wrap img').css({
-          'width': `${imageW}`,
-          'transform': `translate3d(0, ${transY}px, 0) scale3d(${zoom}, ${zoom}, 1)`
+      <!-- advertisement -->
+      <div class="advertisement">
+        <p> 广告：快速学习 Crash Course十分钟速成课 <a href="https://crashcourse.club/" target="_blank" rel="noopener">字幕组网站</a></p>
+      </div>
+    </article>
+    <!-- Article END -->
+  </main>
+  
+  <script>
+    (function () {
+      var url = 'https://zhuochi.org/writing/浊行/在北京第一天/';
+      var banner = ''
+      if (banner !== '' && banner !== 'undefined' && banner !== 'null') {
+        $('#article-banner').css({
+          'background-image': 'url(' + banner + ')'
         })
-        $('html').css('overflow', 'hidden')
-
-        $('.image-view-wrap').on('click', function () {
-          $(this).remove()
-          $('html').attr('style', '')
-        })
+      } else {
+        $('#article-banner').geopattern(url)
       }
-    })
-
-    // qrcode
-    var qr = new QRious({
-      element: document.getElementById('share-qrcode'),
-      value: document.location.href
-    });
-
-  })();
-</script>
+      $('.header').removeClass('fixed-header')
+  
+      // error image
+      $(".markdown-content img").on('error', function () {
+        $(this).attr('src', 'http://file.muyutech.com/error-img.png')
+        $(this).css({
+          'cursor': 'default'
+        })
+      })
+  
+      // zoom image
+      $(".markdown-content img").on('click', function () {
+        var src = $(this).attr('src')
+        if (src !== 'http://file.muyutech.com/error-img.png') {
+          var imageW = $(this).width()
+          var imageH = $(this).height()
+  
+          var zoom = ($(window).width() * 0.95 / imageW).toFixed(2)
+          zoom = zoom < 1 ? 1 : zoom
+          zoom = zoom > 2 ? 2 : zoom
+          var transY = (($(window).height() - imageH) / 2).toFixed(2)
+  
+          $('body').append('<div class="image-view-wrap"><div class="image-view-inner"><img src="' + src +
+            '" /></div></div>')
+          $('.image-view-wrap').addClass('wrap-active')
+          $('.image-view-wrap img').css({
+            'width': `${imageW}`,
+            'transform': `translate3d(0, ${transY}px, 0) scale3d(${zoom}, ${zoom}, 1)`
+          })
+          $('html').css('overflow', 'hidden')
+  
+          $('.image-view-wrap').on('click', function () {
+            $(this).remove()
+            $('html').attr('style', '')
+          })
+        }
+      })
+  
+      // qrcode
+      //   var qr = new QRious({
+      //  element: document.getElementById('share-qrcode'),
+      //  value: document.location.href
+      //});
+    })();
+  </script>
       <!-- Catalog START -->
   
   <!-- Catalog END -->
