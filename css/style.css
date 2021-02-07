@@ -1036,7 +1036,7 @@ h3 {
   margin-right: 0.2em;
   overflow-y: scroll;
   scrollbar-width: thin;
-  max-height: 560px;
+  max-height: 600px;
 }
 .catalog-container .toc-main ol {
   padding-left: 8px;
@@ -1046,6 +1046,55 @@ h3 {
   line-height: 1.5;
 }
 .catalog-container .fixed-toc {
+  position: fixed;
+  top: 70px;
+}
+.mobile-catalog-container {
+  display: block;
+  flex-basis: 25px;
+  -webkit-flex-basis: 25px;
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+}
+.mobile-catalog-container .toc-main {
+  padding-top: 20px;
+  padding-left: 20px;
+  border-left: 1px solid #e5e5e5;
+  width: 160px;
+  box-sizing: border-box;
+  top: 260px;
+}
+.mobile-catalog-container .toc-main .toc-title {
+  font-size: 1.2em;
+  position: relative;
+  padding-left: 28px;
+}
+.mobile-catalog-container .toc-main .toc-title:before {
+  content: '';
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 0;
+  top: 2px;
+  background: url("images/catalog.png") no-repeat;
+  background-size: contain;
+}
+.mobile-catalog-container .toc-main .toc-nav {
+  padding: 0;
+  margin-top: 1em;
+  margin-right: 0.2em;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  max-height: 200px;
+}
+.mobile-catalog-container .toc-main ol {
+  padding-left: 8px;
+}
+.mobile-catalog-container .toc-main li {
+  list-style-type: none;
+  line-height: 1.5;
+}
+.mobile-catalog-container .fixed-toc {
   position: fixed;
   top: 70px;
 }
