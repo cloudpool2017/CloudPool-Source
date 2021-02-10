@@ -1281,6 +1281,16 @@ h3 {
 .vlink {
   display: none !important;
 }
+.vnick,
+.vmail {
+  width: 50% !important;
+}
+@media screen and (max-width: 480px) {
+  .vnick,
+  .vmail {
+    width: 100% !important;
+  }
+}
 .busuanzi_page_pv {
   font-size: 0.8em;
   color: #808080;
