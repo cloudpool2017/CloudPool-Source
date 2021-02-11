@@ -76,7 +76,7 @@
       
         <li class="list-item">
           
-            <a href="/onedaily/" class="item-link">一句</a>
+            <a href="/one/" class="item-link">一句</a>
           
         </li>
       
@@ -127,7 +127,7 @@
         
           <li class="menu-item">
             
-              <a href="/onedaily/" class="menu-link">一句</a>
+              <a href="/one/" class="menu-link">一句</a>
             
           </li>
         
@@ -142,8 +142,36 @@
   </nav>
 </header>
 
-    <div class="app-body one">
-<!--<div class="card-container"></div>-->
+    <div id="article-banner">
+    <h2>
+      留言板
+    </h2>
+    <p class="post-date">
+      2021-01-13
+    </p>
+  </div>
+  
+  <main class="app-body flex-box">
+    <!-- Article START -->
+    <article class="post-article">
+      <div class="article-author">
+    
+        
+    
+</div>
+
+      <!-- Busuanzi Post Counting -->
+      
+      <section class="markdown-content" style="font-family:; text-indent:">
+        
+      </section>
+      <!-- Tags -->
+      
+      <!-- SideBar Catalog -->
+      
+      <!-- Comment -->
+      <div class="daily">
+    <div class="card-container"></div>
     
 <script src="/custom/valine.min.js"></script>
 
@@ -154,12 +182,104 @@
             appId: 'M2JD6yGQhefhH2O0aSjFfclc-MdYXbMMI',
             appKey: 'arEPHdbMnKwMjQgiWsLgw34N',
             avatar: 'mp',
-            enableQQ: true,
-            placeholder: '如果点击提交后没有反应，请复制后尝试刷新并重新提交。 ',
+            enableQQ: 'true',
+            placeholder: '说点什么吧 \n ',
             requiredFields: [''],
         })
     </script>
 </div>
+      <!-- QR Code -->
+      <!-- Share Button -->
+<div class="post-share">
+  
+    
+      <a href="mailto:cloudpool2017@gmail.com" class="fa fa-envelope"></a>
+    
+    
+      <a href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://zhuochi.org/404.html&title=留言板&pics=https://zhuochi.org/images/logo.png&summary=" class="fa" style="position:relative" aria-hidden="true" target="_blank">
+        <span style="color:white;position:absolute;align:centre;font-size:.95em;font-weight:bold">ｚ</span>  
+        <span class="fa-star"></span>
+      </a>
+    
+    
+      <a href="http://v.t.sina.com.cn/share/share.php?url=https://zhuochi.org/404.html&title=留言板&pic=https://zhuochi.org/images/logo.png&summary=" class="fa fa-weibo" aria-hidden="true" target="_blank"></a>
+    
+    
+        <a href="https://www.douban.com/recommend/?url=https://zhuochi.org/404.html&title=留言板&pic=https://zhuochi.org/images/logo.png&summary=" class="fa fa-book" aria-hidden="true" target="_blank"></a>
+    
+    
+      <a href="http://tieba.baidu.com/f/commit/share/openShareApi?url=https://zhuochi.org/404.html&title=留言板&pic=https://zhuochi.org/images/logo.png&summary=" class="fa" style="position:relative" aria-hidden="true" target="_blank">
+        <span style="color:white;position:absolute;align:centre;font-size:.9em;font-weight:bold;margin-top:.08em">贴</span>
+        <span class="fa-square"></span>
+      </a>
+    
+  
+</div>
+
+      <!-- advertisement -->
+      <div class="advertisement">
+        <p> 广告：快速学习 Crash Course十分钟速成课 <a href="https://crashcourse.club/" target="_blank" rel="noopener">字幕组网站</a></p>
+      </div>
+    </article>
+    <!-- Article END -->
+  </main>
+  
+  <script>
+    (function () {
+      var url = 'https://zhuochi.org/404.html';
+      var banner = ''
+      if (banner !== '' && banner !== 'undefined' && banner !== 'null') {
+        $('#article-banner').css({
+          'background-image': 'url(' + banner + ')'
+        })
+      } else {
+        $('#article-banner').geopattern(url)
+      }
+      $('.header').removeClass('fixed-header')
+  
+      // error image
+      $(".markdown-content img").on('error', function () {
+        $(this).attr('src', 'http://file.muyutech.com/error-img.png')
+        $(this).css({
+          'cursor': 'default'
+        })
+      })
+  
+      // zoom image
+      $(".markdown-content img").on('click', function () {
+        var src = $(this).attr('src')
+        if (src !== 'http://file.muyutech.com/error-img.png') {
+          var imageW = $(this).width()
+          var imageH = $(this).height()
+  
+          var zoom = ($(window).width() * 0.95 / imageW).toFixed(2)
+          zoom = zoom < 1 ? 1 : zoom
+          zoom = zoom > 2 ? 2 : zoom
+          var transY = (($(window).height() - imageH) / 2).toFixed(2)
+  
+          $('body').append('<div class="image-view-wrap"><div class="image-view-inner"><img src="' + src +
+            '" /></div></div>')
+          $('.image-view-wrap').addClass('wrap-active')
+          $('.image-view-wrap img').css({
+            'width': `${imageW}`,
+            'transform': `translate3d(0, ${transY}px, 0) scale3d(${zoom}, ${zoom}, 1)`
+          })
+          $('html').css('overflow', 'hidden')
+  
+          $('.image-view-wrap').on('click', function () {
+            $(this).remove()
+            $('html').attr('style', '')
+          })
+        }
+      })
+  
+      // qrcode
+      //   var qr = new QRious({
+      //  element: document.getElementById('share-qrcode'),
+      //  value: document.location.href
+      //});
+    })();
+  </script>
     <aside class="sidebar">
   <span class="fa fa-arrow-up scroll-top"></span>
   <span class="fa fa-share-alt share-icon">
