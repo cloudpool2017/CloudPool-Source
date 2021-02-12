@@ -1090,6 +1090,7 @@ h3 {
   background-size: contain;
 }
 .mobile-catalog-container .toc-main .toc-nav {
+  display: block;
   padding: 0;
   margin-top: 1em;
   margin-right: 0.2em;
