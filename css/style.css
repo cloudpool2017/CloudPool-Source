@@ -1289,7 +1289,8 @@ h3 {
 .yiyan:after {
   content: "”";
 }
-.vlink {
+.vlink,
+.vsys {
   display: none !important;
 }
 .vnick,
