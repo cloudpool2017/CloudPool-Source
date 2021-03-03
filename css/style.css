@@ -559,14 +559,14 @@ h2.article-head {
 .markdown-content h4,
 .article-summary h4 {
   margin: 1em 0;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 .markdown-content h4:before,
 .article-summary h4:before {
   content: "#";
   color: #04b2f1;
   margin-right: 5px;
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: 700;
 }
 .markdown-content h5,
