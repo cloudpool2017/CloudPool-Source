@@ -6,9 +6,6 @@
   background: #04b2f1;
   color: #fff;
 }
-::-webkit-scrollbar {
-  display: block;
-}
 body {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
